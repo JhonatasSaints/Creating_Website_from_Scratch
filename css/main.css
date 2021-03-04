@@ -1,0 +1,30 @@
+body{
+    height: 100%;
+    width: 100%;
+}
+.Menu{
+    height:60px;
+    width: 100%;
+    background-color: #252323;
+    
+}
+main{
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+.logo{
+    float: left;
+    width: 70%;
+    padding: 16px; 
+}
+.redes-sociais ul li{
+    margin-left: 15px;
+    display: inline-block;
+    float: left;
+    list-style: none;
+}
+.redes-sociais{
+    width: 25%;
+    float: left;
+}
