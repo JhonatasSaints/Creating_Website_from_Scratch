@@ -4,7 +4,7 @@ body {
     margin: 0 auto;
 }
 ul {
-    padding: 0px !important
+    padding: 0px !important;
 }
 .main-menu {
     height:60px;
@@ -23,7 +23,7 @@ main {
     padding: 16px; 
 }
 .social-media ul li {
-    margin-left: 15px;
+    margin-left: 25px;
     display: inline-block;
     float: left; 
     list-style: none;
@@ -38,7 +38,7 @@ main {
     margin: 0 auto;
     padding: 15px;
 }
-.menu-urls{
+.menu-urls {
     height: 80px;
     border-bottom: 3px solid #efefef;
 }
@@ -46,6 +46,13 @@ main {
     display: inline-block;
     color: #8b8b8b;
     margin-left: 15px;
+    height: 50px;
+}
+.menu ul li:hover {
+    border-bottom: 3px solid #00bac6;
+}
+.menu ul li a:hover {
+    color: #00bac6;
 }
 .menu ul li a {
     color: #8b8b8b;
@@ -60,16 +67,17 @@ main {
 .search {
     text-align: center;
     width: 30%;
+    height: 20px;
     float: right;
 }
 .search input {
     height : 36px;
     width: 190px;
-    padding: 7px;
-    /* margin-top: 10px; */
+    padding: 6px;
+    position: static;
     background-image: url("../img/icone-search.png");
     background-repeat: no-repeat;
-    background-position: 96%;
+    background-position: 85%;
     border: 1px solid #d6d6d6;
 }
 .col-100 {
