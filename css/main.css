@@ -85,3 +85,28 @@ main {
     float: left;
     position: relative;
 }
+button.slick-prev {
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    background-color: transparent; 
+    position: absolute;
+    background-image: url('../img/anterior.png');
+    top: 35%;
+    left: 0;
+}
+button.slick-next {
+    font-size: 0px;
+    border: none;
+    width: 25px;
+    height: 51px;
+    background-color: transparent; 
+    position: absolute;
+    background-image: url('../img/proximo.png');
+    top: 35%;
+    right: 0;
+}
+.slider-main {
+    width: 100%; !important;
+}
