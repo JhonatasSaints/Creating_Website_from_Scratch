@@ -81,7 +81,7 @@ main {
     border: 1px solid #d6d6d6;
 }
 .col-100 {
-    width: 100%;
+    width: 100%;  
     float: left;
     position: relative;
 }
@@ -108,5 +108,17 @@ button.slick-next {
     right: 0;
 }
 .slider-main {
-    width: 100%; !important;
+    width: 100%!important;
+}
+ul.slick-dots li  {
+    display: inline-block;
+    font-size: 0px;
+    border: 3px solid #ffffff;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+}
+ul.slick-dots li.slick-active {
+    background-color: #00bac6;
+    
 }
