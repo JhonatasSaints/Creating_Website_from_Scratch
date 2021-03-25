@@ -10,9 +10,8 @@ ul {
     height:60px;
     width: 100%;
     background-color: #000000;
-    
 }
-main {
+main, .content {
     margin: 0 auto;
     width: 980px;
     position: relative;
@@ -22,21 +21,26 @@ main {
     width: 70%;
     padding: 16px; 
 }
+.social-media {
+    width: 25%;
+    float: right;
+}
 .social-media ul li {
     margin-left: 25px;
     display: inline-block;
     float: left; 
     list-style: none;
 }
-.social-media {
-    width: 25%;
-    float: right;
-}
+
 .header-2 {
     background-color: #ffffff;
     width: 980px;
     margin: 0 auto;
     padding: 15px;
+}
+.menu {
+    width:70%;
+    float:left;
 }
 .menu-urls {
     height: 80px;
@@ -60,10 +64,7 @@ main {
     font-size: 20px;
     text-transform: uppercase;
 }
-.menu {
-    width:70%;
-    float:left;
-}
+
 .search {
     text-align: center;
     width: 30%;
@@ -75,7 +76,7 @@ main {
     width: 190px;
     padding: 6px;
     position: static;
-    background-image: url("../img/icone-search.png");
+    background-image: url(../img/icone-search.png);
     background-repeat: no-repeat;
     background-position: 85%;
     border: 1px solid #d6d6d6;
@@ -88,24 +89,26 @@ main {
 button.slick-prev {
     font-size: 0px;
     border: none;
-    width: 25px;
-    height: 51px;
-    background-color: transparent; 
     position: absolute;
-    background-image: url('../img/anterior.png');
-    top: 35%;
-    left: 0;
+    width: 25px;
+    height: 50px;
+    z-index: 9;
+    top: 41%;
+    left: 15%;
+    background-image: url(../img/anterior.png);
+    background-color: transparent; 
 }
 button.slick-next {
     font-size: 0px;
     border: none;
-    width: 25px;
-    height: 51px;
-    background-color: transparent; 
     position: absolute;
-    background-image: url('../img/proximo.png');
-    top: 35%;
-    right: 0;
+    width: 25px;
+    height: 50px;
+    z-index: 9;
+    right: 15%;
+    top: 41%;
+    background-image: url(../img/proximo.png);
+    background-color: transparent; 
 }
 /* .slider-main {
     width: 100%!important;
@@ -116,22 +119,21 @@ button.slick-next {
 .slick-initialized {
     overflow: hidden;
 }
-
 .slick-dots li button {
-    font-size: 0px;
-    border: 5px solid #ffffff;
     width: 26px;
     height: 26px;
-    background: transparent;
+    font-size: 0px;
     border-radius: 50%;
+    border: 5px solid #ffffff;
+    background: transparent;
     cursor: pointer;
 }
 .slick-dots {
-    margin: 0 auto;
     width: 50%;
-    position: absolute;
     left:  49%;
     top: 87%;
+    margin: 0 auto;
+    position: absolute;
 }
 .slick-dots li {
     display: inline-block;
